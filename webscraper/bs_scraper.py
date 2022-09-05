@@ -97,7 +97,7 @@ def main(url, path, state, target):
     print ("Download Complete")
     os.chdir("../")
     return {
-        'path'    : "flask-rest-api/downloads/" + path,
+        'path'    : "image-webscraping-api/downloads/" + path,
         'message' : "downloaded " + str(len(imgs)) + ' Images',
         'status'  : "success",
         'state'   : state
